@@ -1,7 +1,26 @@
 aid: semantic-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/semantic-health.png
 name: Semantic Health
-description: Semantic Health is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Semantic Health was a Toronto-based artificial-intelligence company applying
+  natural-language processing and machine learning to autonomous medical coding and
+  clinical-documentation auditing for hospitals and health systems. Backed by DCVC and
+  Y Combinator, it was acquired by AAPC in 2023 and folded into AAPC's coding and
+  auditing product line. The company operates no standalone public developer surface;
+  its primary domain (semantichealth.ai) no longer resolves, and semantichealth.com now
+  permanently redirects (HTTP 301) to aapc.com. No public API, developer portal, OpenAPI
+  specification, SDKs, or documentation were found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/semantic-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,27 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: aapc
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Medical Coding
+- Artificial Intelligence
+- Natural Language Processing
+- Clinical Documentation
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
